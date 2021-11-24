@@ -1,0 +1,1 @@
+print(open('./secret_key.txt', 'r').read())
