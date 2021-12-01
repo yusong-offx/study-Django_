@@ -1,1 +1,3 @@
-print(open('./secret_key.txt', 'r').read())
+def a():
+	print('hello world')
+eval('a()')
