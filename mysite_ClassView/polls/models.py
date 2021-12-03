@@ -14,4 +14,4 @@ class AnswerList(models.Model):
 	votes = models.IntegerField(default=0)
 
 	def __str__(self) -> str:
-		return self.answer_list
+		return self.answers_options
